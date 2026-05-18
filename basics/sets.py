@@ -1,5 +1,5 @@
-invited = {"Alyssa", "sir henry the third", "daniel", "yoyo","terrance","Young sheldon","Mr beast"}
-showed_up = {"Alyssa", "daniel", "yoyo","terrance","bob","donald trump","karen",}
+invited = set({"Alyssa", "sir henry the third", "daniel", "yoyo","terrance","Young sheldon","Mr beast"})
+showed_up = set({"Alyssa", "daniel", "yoyo","terrance","bob","donald trump","karen",})
 
 no_show = invited - showed_up
 crashed = showed_up - invited

@@ -12,4 +12,4 @@ for person in no_show:
 for person in crashed:
     print(f"{person} crashed the party ")
 
-print("this is a mess")
+print("what a mess")

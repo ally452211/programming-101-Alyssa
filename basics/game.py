@@ -17,7 +17,7 @@ while running:
     screen.fill((255, 255, 255)) 
     
     
-    draw_text("Hi Game", text_font, (0, 0, 0), 220, 150)
+    draw_text("Hi Game", text_font, (0, 100, 50), 220, 150)
     
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
